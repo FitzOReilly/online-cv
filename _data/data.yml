@@ -31,28 +31,38 @@ sidebar:
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      title: Languages
+      title: Sprachen
       info:
-        - idiom: German
-          level: Native
+        - idiom: Deutsch
+          level: Muttersprache
 
-        - idiom: English
-          level: Fluent
+        - idiom: Englisch
+          level: Fließend
 
-        - idiom: French
+        - idiom: Französisch
           level: UNIcert I/B1
 
     interests:
-      title: Interests
+      title: Interessen
       info:
-        - item: Climbing
+        - item: Bouldern/Klettern
           link:
 
-        - item: Mountainbiking
+        - item: Mountainbiken
           link:
 
-        - item: Chess
+        - item: Pflanzen
           link:
+      # title: Interests
+      # info:
+      #   - item: Climbing
+      #     link:
+
+      #   - item: Mountainbiking
+      #     link:
+
+      #   - item: Chess
+      #     link:
 
 # career-profile:
 #     title: Career Profile
@@ -64,10 +74,10 @@ sidebar:
 #       Donec quam felis, ultricies nec, pellentesque eu.
 #       Second paragraph if required.
 education:
-    title: Education
+    title: Bildung
     info:
-      - degree: MSc in Renewable Energies and Energy Efficiency
-        university: University of Kassel
+      - degree: Master of Science, Regenerative Energien und Energieeffizienz
+        university: Universität Kassel
         time: 2011 - 2017
         # details: |
         #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -77,8 +87,8 @@ education:
         #   pretium quis, sem.
         #     - Bullet point
         #     - Bullet point
-      - degree: BSc in Physics
-        university: University of Heidelberg
+      - degree: Bachelor of Science, Physik
+        university: Universität Heidelberg
         time: 2007 - 2010
         # details: |
         #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -90,176 +100,222 @@ education:
         #     - Bullet point
 
 experiences:
-    title: Experiences
+    title: Beruflicher Werdegang
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Data Engineer (bis 2022/12 Backend-Softwareentwickler)
+        time: 2022/02 - 2024/01
+        company: Dealfront (bis 2022/12 Echobot Media Technologies GmbH), Karlsruhe
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - Betreuung bestehender Systeme (Weiterentwicklung, Monitoring,
+              Support)
+            - Aufbereitung und Weiterverarbeitung von Rohdaten
+            - Architekturentscheidungen diskutieren und umsetzen
+            - Verbesserung von Legacy-Systemen (Entkopplung, Stabilität,
+              Performance, Testabdeckung, Dokumentation)
+            - Einrichtung und Betreuung eines Geodaten-Servers
+            - Einarbeitung und Betreuung neuer Mitarbeiter
+            - Eingesetzte Technologien: PHP, Rust, Javascript, Python, Docker,
+              GitLab CI, Kafka, Redis, PostgreSQL, rundeck, gRPC, Solr, Kibana,
+              Linux, Puppeteer, Sentry, Sonar
+      - role: Softwareentwickler
+        time: 2018/11 - 2022/01
+        company: macio GmbH, Karlsruhe
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Entwickeln und Testen von Human Machine Interfaces für eingebettete Geräte (Gasbrenner, Gastronomie-Spülmaschinen)
+            - Mitarbeit am Projekt PQC4MED um medizinische Geräte für Postquanten-Kryptographie updatefähig zu machen
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - Scrum
+            - Zusammenarbeit mit Kunden
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            - Projekte: Siemens, Winterhalter, Jenoptik, PQC4MED
+            - Eingesetzte Technologien: C++, C, Python, Javascript, Jenkins,
+              FastAPI, React, axivion
+
+
+      - role: Projektassistent
+        time: 2017/04 - 2018/10
+        company: Limón GmbH, Kassel
+      - role: Studentische Hilfskraft
+        time: 2014/08 - 2015/10
+        company: Institut dezentrale Energietechnologien, Universität Kassel
+      - role: Studentische Hilfskraft
+        time: 2012/11 - 2014/07
+        company: Fachgebiet Umweltgerechte Produkte und Prozesse, Universität Kassel
+      # - role: UI Developer
+      #   time: 2012 - 2014
+      #   company: Amazon, London
+      #   details: |
+      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #     Cum sociis natoque penatibus et magnis dis parturient montes,
+      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #     pellentesque eu, pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
+
+      # TODO Put this somewhere else
+      - role: Programmiersprachen
+        details: |
+          Rust, Python, C++, PHP, JavaScript, MATLAB
+      - role: Versionsverwaltung
+        details: |
+          git
+      - role: Continuous Integration
+        details: |
+          GitHub Actions, GitLab CI, Jenkins, Travis CI
+      - role: Datenbanken
+        details: |
+          SQL, Redis
+      - role: Web-Entwicklung
+        details: |
+          HTML, CSS, FastAPI, Puppeteer
+      - role: Sonstiges
+        details: |
+          gRPC, Kafka, rundeck, Kibana, Sentry, Sonar, Solr, Docker
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: |
+#             Details about cert. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
+
+#             Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#             fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#             justo diam viverra velit, sed rhoncus leo leo eu justo.
+#             Suspendisse placerat risus ante, sed porta nisi blandit at.
+#         - name: Git learning
+#           start: 2019
+#           end:
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.github.com
+#           credentialname: Github
+#           details: |
+#             Older certification. Lorem ipsum dolor sit amet, consectetur
+#             adipiscing elit.
+#             Nullam eget orci purus. Nullam ultrices neque nibh.
+#             Aenean fermentum, felis vulputate suscipit accumsan,
+#             sem enim bibendum augue, sed convallis arcu lacus at dui.
+#             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Projekte
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Fatalii
+        link: "https://github.com/FitzOReilly/fatalii"
+        tagline: "Schach-Engine, geschrieben in Rust, damit einen Lichess-Bot eingerichtet, der auf fly.io gehostet ist"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Pina
+        link: "https://github.com/FitzOReilly/pina"
+        tagline: "Pinch-Analyse-Package (Verfahren zur Berechnung des minimalen Energiebedarfs bei thermischen Prozessen mit Wärmerückgewinnung)"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Finite-Elemente-Programm
+        tagline: "Entwickelt im Rahmen zweier Hausarbeiten für die Vorlesungen Numerische Mechanik 1 + 2, geschrieben in MATLAB"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Wettervorhersage-App
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      # - title: Velocity
+      #   link: "#hook"
+      #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      # - title: DevStudio
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      # - title: Tempo
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      # - title: Atom
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      # - title: Delta
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-skills:
-    title: Skills &amp; Proficiency
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - name: Javascript & jQuery
-        level: 98%
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-      - name: Angular
-        level: 98%
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
-      - name: HTML5 & CSS
-        level: 95%
+# skills:
+    # title: Skills &amp; Proficiency
 
-      - name: Ruby on Rails
-        level: 85%
+    # toolset:
+    #   - name: Python & Django
+    #     level: 98%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    #   - name: Javascript & jQuery
+    #     level: 98%
+
+    #   - name: Angular
+    #     level: 98%
+
+    #   - name: HTML5 & CSS
+    #     level: 95%
+
+    #   - name: Ruby on Rails
+    #     level: 85%
+
+    #   - name: Sketch & Photoshop
+    #     level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
