@@ -121,16 +121,12 @@ experiences:
         time: 2018/11 - 2022/01
         company: macio GmbH, Karlsruhe
         details: |
-            - Entwickeln und Testen von Human Machine Interfaces für eingebettete Geräte (Gasbrenner, Gastronomie-Spülmaschinen)
-            - Mitarbeit am Projekt PQC4MED um medizinische Geräte für Postquanten-Kryptographie updatefähig zu machen
-
-            - Scrum
-            - Zusammenarbeit mit Kunden
-
-            - Projekte: Siemens, Winterhalter, Jenoptik, PQC4MED
+            - Entwickeln und Testen von Human Machine Interfaces für
+              eingebettete Geräte
+            - Arbeit in Scrum Teams (gegenseitige Reviews, enge Zusammenarbeit
+              mit Designern und Kunden)
             - Eingesetzte Technologien: C++, C, Python, Javascript, Jenkins,
-              FastAPI, React, axivion
-
+              FastAPI, React, axivion, Sciopta, emWin
 
       - role: Projektassistent
         time: 2017/04 - 2018/10
