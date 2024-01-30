@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -51,7 +51,7 @@ sidebar:
         - item: Mountainbiken
           link:
 
-        - item: Pflanzen
+        - item: Pflanzen (Chilis anbauen)
           link:
       # title: Interests
       # info:
@@ -104,7 +104,7 @@ experiences:
     info:
       - role: Data Engineer (bis 2022/12 Backend-Softwareentwickler)
         time: 2022/02 - 2024/01
-        company: Dealfront (bis 2022/12 Echobot Media Technologies GmbH), Karlsruhe
+        company: Dealfront Group GmbH (bis 2022/12 Echobot Media Technologies GmbH), Karlsruhe
         details: |
             - Betreuung bestehender Systeme (Weiterentwicklung, Monitoring,
               Support)
@@ -121,8 +121,8 @@ experiences:
         time: 2018/11 - 2022/01
         company: macio GmbH, Karlsruhe
         details: |
-            - Entwickeln und Testen von Human Machine Interfaces für
-              eingebettete Geräte
+            - Entwickeln und Testen von eingebetteten Geräten für Human Machine
+              Interfaces
             - Arbeit in Scrum Teams (gegenseitige Reviews, enge Zusammenarbeit
               mit Designern und Kunden)
             - Eingesetzte Technologien: C++, C, Python, Javascript, Jenkins,
@@ -131,12 +131,25 @@ experiences:
       - role: Projektassistent
         time: 2017/04 - 2018/10
         company: Limón GmbH, Kassel
+        details: |
+            - Entwicklung eines Programms zur automatisierten Erstellung von
+              Energieberichten
+            - Durchführung von energiebezogenen Messungen in Industriebetrieben
+              (Strom, Druckluft, Flüssigkeitsströme und -temperaturen)
+
       - role: Studentische Hilfskraft
         time: 2014/08 - 2015/10
         company: Institut dezentrale Energietechnologien, Universität Kassel
+        details: |
+            - Aufbau einer Modellbibliothek für energietechnische Anlagen
+
       - role: Studentische Hilfskraft
         time: 2012/11 - 2014/07
         company: Fachgebiet Umweltgerechte Produkte und Prozesse, Universität Kassel
+        details: |
+            - Modellierung und Simulation einer Produktionslinie eines
+              molkeverarbeitenden Werkes
+
       # - role: UI Developer
       #   time: 2012 - 2014
       #   company: Amazon, London
@@ -149,25 +162,7 @@ experiences:
       #       - Bullet point
       #       - Bullet point
 
-      # TODO Put this somewhere else
-      - role: Programmiersprachen
-        details: |
-          Rust, Python, C++, PHP, JavaScript, MATLAB
-      - role: Versionsverwaltung
-        details: |
-          git
-      - role: Continuous Integration
-        details: |
-          GitHub Actions, GitLab CI, Jenkins, Travis CI
-      - role: Datenbanken
-        details: |
-          SQL, Redis
-      - role: Web-Entwicklung
-        details: |
-          HTML, CSS, FastAPI, Puppeteer
-      - role: Sonstiges
-        details: |
-          gRPC, Kafka, rundeck, Kibana, Sentry, Sonar, Solr, Docker
+
 
 # certifications:
 #       title: Certifications
@@ -219,16 +214,17 @@ projects:
     assignments:
       - title: Fatalii
         link: "https://github.com/FitzOReilly/fatalii"
-        tagline: "Schach-Engine, geschrieben in Rust, damit einen Lichess-Bot eingerichtet, der auf fly.io gehostet ist"
+        tagline: "Schach-Engine, geschrieben in Rust (und damit einen Lichess-Bot eingerichtet, der auf fly.io gehostet ist)"
 
       - title: Pina
         link: "https://github.com/FitzOReilly/pina"
-        tagline: "Pinch-Analyse-Package (Verfahren zur Berechnung des minimalen Energiebedarfs bei thermischen Prozessen mit Wärmerückgewinnung)"
+        tagline: "Python-Package zur Durchführung einer Pinch-Analyse (Verfahren zur Berechnung des minimalen Energiebedarfs bei thermischen Prozessen mit Wärmerückgewinnung)"
 
       - title: Finite-Elemente-Programm
         tagline: "Entwickelt im Rahmen zweier Hausarbeiten für die Vorlesungen Numerische Mechanik 1 + 2, geschrieben in MATLAB"
 
       - title: Wettervorhersage-App
+        tagline: "Entwickelt mit Qt"
 
       # - title: Velocity
       #   link: "#hook"
@@ -291,27 +287,29 @@ projects:
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
-# skills:
-    # title: Skills &amp; Proficiency
+skills_2:
+    title: Software-Kenntnisse
 
-    # toolset:
-    #   - name: Python & Django
-    #     level: 98%
+    toolset:
+      - name: Programmiersprachen
+        details: |
+          Rust, Python, C++, PHP, JavaScript, MATLAB
 
-    #   - name: Javascript & jQuery
-    #     level: 98%
-
-    #   - name: Angular
-    #     level: 98%
-
-    #   - name: HTML5 & CSS
-    #     level: 95%
-
-    #   - name: Ruby on Rails
-    #     level: 85%
-
-    #   - name: Sketch & Photoshop
-    #     level: 60%
+      - name: Versionsverwaltung
+        details: |
+          git
+      - name: Continuous Integration
+        details: |
+          GitHub Actions, GitLab CI, Jenkins, Travis CI
+      - name: Datenbanken
+        details: |
+          SQL, Redis
+      - name: Web-Entwicklung
+        details: |
+          HTML, CSS, FastAPI, Puppeteer
+      - name: Sonstiges
+        details: |
+          Docker, gRPC, Kafka, Solr, rundeck, Kibana, Sentry, Sonar
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

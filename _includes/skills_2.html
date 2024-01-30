@@ -1,0 +1,43 @@
+{% assign skills_2 = site.data.data.skills_2 %}
+{% if skills_2 %}
+<section class="skills_2-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills_2.title }}
+  </h2>
+
+  <div class="skillset">
+
+    {% for skill in skills_2.toolset %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="skill-title">{{ skill.name }}</h3>
+
+          {% if skill.details %}
+          <div class="details">
+            {{ skill.details | markdownify }}
+          </div><!--//details-->
+          {% endif %}
+        </div><!--//upper-row-->
+
+
+
+      </div><!--//meta-->
+
+
+
+    </div><!--//item-->
+
+    {% endfor %}
+
+  </div>
+
+</section><!--//skills_2-section-->
+{% endif %}
