@@ -13,6 +13,8 @@ sidebar:
     avatar: patrick.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
+    street: Karlstraße 112
+    city: 76137 Karlsruhe
     email: patrick_heck@hotmail.com
     phone: +49 1575 6551286
     # timezone: America/Cancun Timezone
@@ -20,7 +22,7 @@ sidebar:
     # website: blog.webjeda.com #do not add http://
     # linkedin: alandoe
     # xing: alandoe
-    github: FitzOReilly
+    github: github.com/FitzOReilly
     # telegram: # add your nickname without '@' sign
     # gitlab:
     # bitbucket:
@@ -29,6 +31,7 @@ sidebar:
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     # pdf: http://www.africau.edu/images/default/sample.pdf
+    date-of-birth: geboren am 20.12.1986
 
     languages:
       title: Sprachen
@@ -40,7 +43,7 @@ sidebar:
           level: Fließend
 
         - idiom: Französisch
-          level: UNIcert I/B1
+          level: B1/UNIcert I, fortgeschritten
 
     interests:
       title: Interessen
@@ -115,18 +118,18 @@ experiences:
             - Einrichtung und Betreuung eines Geodaten-Servers
             - Einarbeitung und Betreuung neuer Mitarbeiter
             - Eingesetzte Technologien: PHP, Rust, Javascript, Python, Docker,
-              GitLab CI, Kafka, Redis, PostgreSQL, rundeck, gRPC, Solr, Kibana,
+              GitLab CI, Kafka, Redis, PostgreSQL, Rundeck, gRPC, Solr, Kibana,
               Linux, Puppeteer, Sentry, Sonar
       - role: Softwareentwickler
         time: 2018/11 - 2022/01
         company: macio GmbH, Karlsruhe
         details: |
-            - Entwickeln und Testen von eingebetteten Geräten für Human Machine
-              Interfaces
+            - Entwickeln und Testen von Human Machine Interfaces für
+              eingebettete Geräte
             - Arbeit in Scrum Teams (gegenseitige Reviews, enge Zusammenarbeit
               mit Designern und Kunden)
             - Eingesetzte Technologien: C++, C, Python, Javascript, Jenkins,
-              FastAPI, React, axivion, Sciopta, emWin
+              FastAPI, React, Axivion, Sciopta, emWin
 
       - role: Projektassistent
         time: 2017/04 - 2018/10
@@ -206,7 +209,7 @@ experiences:
 #             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projekte
+    title: Software-Projekte
     # intro: >
     #   You can list your side projects in this
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -214,7 +217,7 @@ projects:
     assignments:
       - title: Fatalii
         link: "https://github.com/FitzOReilly/fatalii"
-        tagline: "Schach-Engine, geschrieben in Rust (und damit einen Lichess-Bot eingerichtet, der auf fly.io gehostet ist)"
+        tagline: "Schach-Engine, geschrieben in Rust"
 
       - title: Pina
         link: "https://github.com/FitzOReilly/pina"
@@ -297,7 +300,7 @@ skills_2:
 
       - name: Versionsverwaltung
         details: |
-          git
+          Git
       - name: Continuous Integration
         details: |
           GitHub Actions, GitLab CI, Jenkins, Travis CI
@@ -309,7 +312,7 @@ skills_2:
           HTML, CSS, FastAPI, Puppeteer
       - name: Sonstiges
         details: |
-          Docker, gRPC, Kafka, Solr, rundeck, Kibana, Sentry, Sonar
+          Docker, gRPC, Kafka, Solr, Rundeck, Kibana, Sentry, Sonar
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

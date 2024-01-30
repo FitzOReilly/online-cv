@@ -1,6 +1,18 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
+    {% if sidebar.street %}
+    <li class="street"><i class="fab"></i>
+      {{ sidebar.street }}
+    </li>
+    {% endif %}
+
+    {% if sidebar.city %}
+    <li class="city"><i class="fab"></i>
+      {{ sidebar.city }}
+    </li>
+    {% endif %}
+
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
@@ -51,7 +63,7 @@
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="http://{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
 
@@ -94,6 +106,12 @@
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.date-of-birth %}
+    <li class="date-of-birth"><i class="fab"></i>
+      {{ sidebar.date-of-birth }}
     </li>
     {% endif %}
 
