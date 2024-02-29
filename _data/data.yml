@@ -105,9 +105,9 @@ education:
 experiences:
     title: Beruflicher Werdegang
     info:
-      - role: Data Engineer (bis 2022/12 Backend-Softwareentwickler)
-        time: 2022/02 - 2024/01
-        company: Dealfront Group GmbH (bis 2022/12 Echobot Media Technologies GmbH), Karlsruhe
+      - role: Data Engineer (bis 12/2022 Backend-Softwareentwickler)
+        time: 02/2022 - 01/2024
+        company: Dealfront Group GmbH (bis 12/2022 Echobot Media Technologies GmbH), Karlsruhe
         details: |
             - Betreuung bestehender Systeme (Weiterentwicklung, Monitoring,
               Support)
@@ -121,7 +121,7 @@ experiences:
               GitLab CI, Kafka, Redis, PostgreSQL, Rundeck, gRPC, Solr, Kibana,
               Linux, Puppeteer, Sentry, Sonar
       - role: Softwareentwickler
-        time: 2018/11 - 2022/01
+        time: 11/2018 - 01/2022
         company: macio GmbH, Karlsruhe
         details: |
             - Entwickeln und Testen von Human Machine Interfaces für
@@ -132,7 +132,7 @@ experiences:
               FastAPI, React, Axivion, Sciopta, emWin
 
       - role: Projektassistent
-        time: 2017/04 - 2018/10
+        time: 04/2017 - 10/2018
         company: Limón GmbH, Kassel
         details: |
             - Entwicklung eines Programms zur automatisierten Erstellung von
@@ -141,13 +141,13 @@ experiences:
               (Strom, Druckluft, Flüssigkeitsströme und -temperaturen)
 
       - role: Studentische Hilfskraft
-        time: 2014/08 - 2015/10
+        time: 08/2014 - 10/2015
         company: Institut dezentrale Energietechnologien, Universität Kassel
         details: |
             - Aufbau einer Modellbibliothek für energietechnische Anlagen
 
       - role: Studentische Hilfskraft
-        time: 2012/11 - 2014/07
+        time: 11/2012 - 07/2014
         company: Fachgebiet Umweltgerechte Produkte und Prozesse, Universität Kassel
         details: |
             - Modellierung und Simulation einer Produktionslinie eines
