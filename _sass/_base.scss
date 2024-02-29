@@ -196,7 +196,7 @@ p {
     color: $text-color;
     font-size: 16pt;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-weight: 500;
     flex: 75%;
   }
@@ -231,6 +231,7 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
+    margin-bottom: 200px;
     .intro {
       margin-bottom: 30px;
     }
