@@ -54,7 +54,7 @@ sidebar:
         - item: Mountainbiken
           link:
 
-        - item: Pflanzen (Chilis anbauen)
+        - item: Chilis anbauen
           link:
       # title: Interests
       # info:
@@ -129,7 +129,7 @@ experiences:
             - Arbeit in Scrum Teams (gegenseitige Reviews, enge Zusammenarbeit
               mit Designern und Kunden)
             - Eingesetzte Technologien: C++, C, Python, Javascript, Jenkins,
-              FastAPI, React, Axivion, Sciopta, emWin
+              FastAPI, React, Axivion, emWin
 
       - role: Projektassistent
         time: 04/2017 - 10/2018
@@ -306,7 +306,7 @@ skills_2:
           GitHub Actions, GitLab CI, Jenkins, Travis CI
       - name: Datenbanken
         details: |
-          SQL, Redis
+          PostgreSQL, Redis
       - name: Web-Entwicklung
         details: |
           HTML, CSS, FastAPI, Puppeteer
