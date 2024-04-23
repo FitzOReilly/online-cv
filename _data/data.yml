@@ -315,9 +315,13 @@ skills_2:
       - name: Monitoring
         details: |
           Kibana, Grafana, Sentry
-      - name: Linux-Kenntnisse
+      - name: Linux
         details: |
-          ssh, bash-Scripte, systemd/systemctl, screen/tmux, curl, gängige Befehle wie ls, grep, tail, rsync
+          Zugriff auf Server (ssh),
+          Services betreiben (systemctl),
+          Skripte schreiben und ausführen (bash, screen/tmux),
+          Log-Dateien auslesen (cat, tail, grep), Prozesse überwachen (top, ps),
+          weitere gängige Befehle wie ls, curl, rsync, chmod
       - name: Sonstiges
         details: |
           Docker, Kubernetes, gRPC, Kafka, Solr, Rundeck, Sonar
