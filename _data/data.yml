@@ -8,21 +8,21 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Patrick Heck
+    # name: Patrick Heck
     # tagline: Full Stack Developer
-    avatar: patrick.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # avatar: patrick.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    street: Karlstraße 112
-    city: 76137 Karlsruhe
-    email: patrick_heck@hotmail.com
-    phone: +49 1575 6551286
+    # street: Karlstraße 112
+    # city: 76137 Karlsruhe
+    # email: patrick_heck@hotmail.com
+    # phone: +49 1575 6551286
     # timezone: America/Cancun Timezone
     # citizenship:
     # website: blog.webjeda.com #do not add http://
     # linkedin: alandoe
     # xing: alandoe
-    github: github.com/FitzOReilly
+    # github: github.com/FitzOReilly
     # telegram: # add your nickname without '@' sign
     # gitlab:
     # bitbucket:
@@ -31,7 +31,7 @@ sidebar:
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     # pdf: http://www.africau.edu/images/default/sample.pdf
-    date-of-birth: geboren am 20.12.1986
+    # date-of-birth: geboren am 20.12.1986
 
     languages:
       title: Sprachen
@@ -215,12 +215,12 @@ projects:
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Fatalii
-        link: "https://github.com/FitzOReilly/fatalii"
-        tagline: "Schach-Engine, geschrieben in Rust"
+      - title: Schach-Engine
+        # link: "https://github.com/FitzOReilly/fatalii"
+        tagline: "geschrieben in Rust"
 
-      - title: Pina
-        link: "https://github.com/FitzOReilly/pina"
+      - title: Pinch-Analyse-Package
+        # link: "https://github.com/FitzOReilly/pina"
         tagline: "Python-Package zur Durchführung einer Pinch-Analyse (Verfahren zur Berechnung des minimalen Energiebedarfs bei thermischen Prozessen mit Wärmerückgewinnung)"
 
       - title: Finite-Elemente-Programm
