@@ -115,7 +115,7 @@ experiences:
             - Architekturentscheidungen diskutieren und umsetzen
             - Verbesserung von Legacy-Systemen (Entkopplung, Stabilität,
               Performance, Testabdeckung, Dokumentation)
-            - Einrichtung und Betreuung eines Geodaten-Servers
+            - Einrichtung und Betreuung eines Geodaten-Servers unter Linux
             - Einarbeitung und Betreuung neuer Mitarbeiter
             - Eingesetzte Technologien: PHP, Rust, Javascript, Python, Docker,
               GitLab CI, Kafka, Redis, PostgreSQL, Rundeck, gRPC, Solr, Kibana,
@@ -296,8 +296,7 @@ skills_2:
     toolset:
       - name: Programmiersprachen
         details: |
-          Rust, Python, C++, PHP, JavaScript, MATLAB
-
+          Python, C++, Rust, PHP, JavaScript, MATLAB
       - name: Versionsverwaltung
         details: |
           Git
@@ -310,9 +309,18 @@ skills_2:
       - name: Web-Entwicklung
         details: |
           HTML, CSS, FastAPI, Puppeteer
+      - name: Testframeworks
+        details: |
+          Pytest, CxxTest, PHPUnit, Jira Xray
+      - name: Monitoring
+        details: |
+          Kibana, Grafana, Sentry
+      - name: Linux-Kenntnisse
+        details: |
+          ssh, bash-Scripte, systemd/systemctl, screen/tmux, curl, gängige Befehle wie ls, grep, tail, rsync
       - name: Sonstiges
         details: |
-          Docker, gRPC, Kafka, Solr, Rundeck, Kibana, Sentry, Sonar
+          Docker, Kubernetes, gRPC, Kafka, Solr, Rundeck, Sonar
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
