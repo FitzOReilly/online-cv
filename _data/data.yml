@@ -105,13 +105,18 @@ education:
 experiences:
     title: Beruflicher Werdegang
     info:
+      - role: Berufliche Auszeit mit Orientierung auf dem Arbeitsmarkt und Weiterbildungen
+        time: seit 02/2024
+        details: |
+            - Kubernetes-Kurs
+            - Arbeit an privaten Projekten
+            - Kenntnisse über verschiedene Technologien angeeignet oder verbessert
       - role: Data Engineer (bis 12/2022 Backend-Softwareentwickler)
         time: 02/2022 - 01/2024
         company: Dealfront Group GmbH (bis 12/2022 Echobot Media Technologies GmbH), Karlsruhe
         details: |
             - Betreuung bestehender Systeme (Weiterentwicklung, Monitoring,
               Support)
-            - Aufbereitung und Weiterverarbeitung von Rohdaten
             - Architekturentscheidungen diskutieren und umsetzen
             - Verbesserung von Legacy-Systemen (Entkopplung, Stabilität,
               Performance, Testabdeckung, Dokumentation)
@@ -221,10 +226,10 @@ projects:
 
       - title: Pina
         link: "https://github.com/FitzOReilly/pina"
-        tagline: "Python-Package zur Durchführung einer Pinch-Analyse (Verfahren zur Berechnung des minimalen Energiebedarfs bei thermischen Prozessen mit Wärmerückgewinnung)"
+        tagline: "Python-Package zur Durchführung einer Pinch-Analyse (Verfahren zur Optimierung thermischer Prozesse mit Wärmerückgewinnung)"
 
       - title: Finite-Elemente-Programm
-        tagline: "Entwickelt im Rahmen zweier Hausarbeiten für die Vorlesungen Numerische Mechanik 1 + 2, geschrieben in MATLAB"
+        tagline: "MATLAB-Programm für Hausarbeiten für die Vorlesungen Numerische Mechanik 1 + 2"
 
       - title: Wettervorhersage-App
         tagline: "Entwickelt mit Qt"
@@ -296,7 +301,7 @@ skills_2:
     toolset:
       - name: Programmiersprachen
         details: |
-          Rust, Python, C++, PHP, JavaScript, MATLAB
+          Rust, Python, C++, JavaScript, PHP, MATLAB
 
       - name: Versionsverwaltung
         details: |
